@@ -5,12 +5,11 @@ export const products = [
     price: 200.99,
     discount: 30,
     quantityAvailable: 2,
-    category: 'T-shirt',
+   
     currentPrice: 140.99,
-    sizes: ['xl', 'l'], 
-    colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
+  
     images: [
-      '/images/2112.jpg',
+      '/images/products/product-1.jpg',
     ],
     punctuation: {
       countOpinions: 81,
@@ -64,12 +63,11 @@ export const products = [
     name: 'development of a mobile application (hybrid) with flutter',
     price: 119.99,
     quantityAvailable: 2,
-    category: 'T-shirt',
+
     currentPrice: 150.99,
-    sizes: ['xl', 'l'], 
-    colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
+
     images: [
-      '/images/1212.jpg',
+      '/images/products/product-2.jpg',
     ],
     punctuation: {
       countOpinions: 81,
@@ -123,12 +121,11 @@ export const products = [
     name: 'development of customs sections and pages in a Shopify theme',
     price: 119.99,
     quantityAvailable: 2,
-    category: 'T-shirt',
+   
     currentPrice: 90.99,
-    sizes: ['xl', 'l'], 
-    colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
+ 
     images: [
-      '/images/1222.png',
+      '/images/products/product-3.jpg',
     ],
     punctuation: {
       countOpinions: 81,
@@ -182,12 +179,11 @@ export const products = [
     name: 'create a multi products Shopify store',
     price: 119.99,
     quantityAvailable: 2,
-    category: 'T-shirt',
+    
     currentPrice: 220.99,
-    sizes: ['xl', 'l'], 
-    colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
+    
     images: [
-      '/images/121221.png',
+      '/images/products/product-4.jpg',
     ],
     punctuation: {
       countOpinions: 81,
@@ -240,13 +236,12 @@ export const products = [
     id: '5',
     name: 'Analyze data in Excel, google Sheets or Access',
     price: 119.99,
-    quantityAvailable: 2,
+   
     category: 'T-shirt',
     currentPrice: 310.99,
-    sizes: ['xl', 'l'], 
-    colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
+   
     images: [
-      '/images/4344.jpg',
+      '/images/products/product-5.jpg',
     ],
     punctuation: {
       countOpinions: 81,
@@ -305,7 +300,7 @@ export const products = [
     sizes: ['xl', 'l'], 
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
-      '/images/222.jpg',
+      '/images/products/product-6.jpg',
     ],
     punctuation: {
       countOpinions: 81,

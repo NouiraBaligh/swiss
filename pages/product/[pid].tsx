@@ -20,7 +20,7 @@ type ProductPageType = {
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const pid = query.pid;
-  const res = await fetch(`${server}/api/product/${pid}`);
+  const res = await fetch(`${server}/api/products/${pid}`);
   const product = await res.json();
 
   return {
@@ -47,7 +47,7 @@ const Product = ({ product }: ProductPageType) => {
           <div className="product-single__info">
             <div className="product-single__info-btns">
               <button type="button" onClick={() => setShowBlock('description')} className={`btn btn--rounded ${showBlock === 'description' ? 'btn--active' : ''}`}>Description</button>
-              <button type="button" onClick={() => setShowBlock('reviews')} className={`btn btn--rounded ${showBlock === 'reviews' ? 'btn--active' : ''}`}>Reviews (2)</button>
+              <button type="button" onClick={() => setShowBlock('reviews')} className={`btn btn--rounded ${showBlock === 'reviews' ? 'btn--active' : ''}`}>Reviews (3)</button>
             </div>
 
             <Description show={showBlock === 'description'} />
